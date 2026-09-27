@@ -31,8 +31,7 @@ production-ready-agents-guardrails/
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
-cd production-ready-agents-guardrails
+git clone https://github.com/LasithaAmarasinghe/PII-Protection-Human-in-the-Loop-Guardrails.git
 ```
 
 ### 2. Create a virtual environment
@@ -140,7 +139,7 @@ The example demonstrates:
                                       ▼
                          ┌──────────────────────────┐
                          │      Tool Middleware     │
-                         │ Pause high-impact tools │
+                         │ Pause high-impact tools  │
                          └────────────┬─────────────┘
                                       │
                               Human Approval
@@ -148,7 +147,7 @@ The example demonstrates:
                                       ▼
                          ┌──────────────────────────┐
                          │     Output Middleware    │
-                         │ Validate / sanitize      │
+                         │    Validate / sanitize   │
                          └────────────┬─────────────┘
                                       │
                                       ▼
